@@ -11,7 +11,7 @@ if( totalcompra >= 50.000){
 }
 
 let num= 8;
-if(num %  2 ){
+if(num % 2 === 0 ){
     console.log("El numero es par")
 }else{
     console.log("El numero es impar")
@@ -92,7 +92,7 @@ let contraseña= "1701";
     descuento= tcompra *0.10;
  
 } else{
-    if(esciente === true){
+    if(escliente === true){
         descuento= tcompra * 0.05
     }else{
         descuento=0
