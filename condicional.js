@@ -26,10 +26,12 @@ if( nota >= 3.0){
 
 let a= 23;
 let b= 43;
-if(a >= b){
-    console.log("Es mayor")
+if(a > b){
+    console.log(" a es mayor")
+}else if (a === b){
+    console.log("Son iguales")
 }else{
-    console.log("Es menor")
+    console.log("b es mayor")
 }
 
 let temp=10
